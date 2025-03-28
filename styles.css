@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #e9efff;
+    padding: 3rem;
+}
+
+nav{
+    padding-block: 1rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #e9efff;
+
+}
+
+.genLayout{
+    /* border: 1px solid; */
+    max-width: 1000px;
+    margin: auto;
+}
+
+.innerNav{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    padding-block: .5rem;
+}
+
+.navRight{
+    /* border: 1px solid red; */
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navItems{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navItems > a{
+    text-transform: capitalize;
+    font-size: 14px;
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.navItems >a:first-child{
+    color: #4b7eff;
+}
+
+.navRight > button{
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: .5rem 1.3rem;
+    background-color: transparent;
+}
+
+.hero{
+    /* border: 2px solid; */
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding-top: .4rem;
+}
+
+.heroContent{
+    flex: 1;
+}
+
+.heroContent> span{
+    background-color: white;
+    padding: .3rem 1rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+.heroContent > h1{
+    font-size: 3rem;
+    text-transform: capitalize;
+    width: 500px;
+    margin-top: 100rem;
+    margin-top: 1.5rem;
+}
+
+.heroContent >p{
+    margin-block: 1.5rem;
+}
+
+
+.btn-group{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.btn-group> button{
+    background-color: #346dff;
+    color: white;
+    padding: .7rem 1rem;
+    border: none;
+    border-radius: 4px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.btn-left{
+    display: flex;
+    align-items: center;
+    gap: .7rem;
+}
+
+.btn-left > span{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating{
+    margin-block: 2rem;
+}
+
+.heroImage{
+    flex: 1;
+    border: 2px solid ;
+}
+
+.heroImage > img{
+    width: 500px;
+    border-radius: 30px;
+}
+
+.section{
+    display: flex;
+    /* background-color: #f4f7ff; */
+    /* justify-content: space-between; */
+    margin-top: 90px;
+    column-gap: 20px;
+    padding-bottom: 3rem;
+    /* height: 50px; */
+}
+
+.section1{
+    background-color: #f4f7ff;
+    border-radius: 25px;
+    width: 25vw;
+    height: 30vh;
+    padding: 2rem;
+}
+
+.section1> p{
+    width: 300px;
+    margin-top: 17px;
+}
+
+.h2{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 15px;
+    text-transform: capitalize;
+}
+
+.section1>span{
+    font-size: 30px;
+    background-color: white;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    display: block;
+    margin: auto;
+}
+
+header{
+    background-color: #e9efff;
+}
+
+.services>span{
+    background-color: white;
+    padding: .3rem 1rem;
+    border-radius: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.services>h1{
+    font-size: 2rem;
+    font-weight: 700;
+    width: 400px;
+    text-align: center;
+}
+
+.services{
+    max-width: 500px;
+    margin-top: 80px;
+}
+
+.analysisQuestion{
+    margin-top: 4rem;
+    border-top: 2px solid;
+    position: relative;
+}
+
+.analysisQuestion > p{
+    border: 2px solid grey;
+    padding: 1.4rem;
+    border-radius: 50px;
+    font-size: 18px;
+    width: 600px;
+    position: absolute;
+    top: -2.3rem;
+    z-index: 1;
+    background-color: white;
+    left: 25%;
+    margin-left: -25px;
+}
+
+.serviceGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+}
+
+.serviceCard{
+    border-radius: 15px;
+    background-color: white;
+    height: 50vh;
+    padding: 1.6rem;
+    margin-top: 70px;
+}
+
+.serviceCard > h1{
+    margin-top: 52px;
+    /* font-size: 2rem; */
+    font-weight: 500;
+    color: #3b4566;
+}
+
+.serviceCard >p{
+    margin-top: 10px;
+}
+
+.serviceCard >h5{
+    margin-top: 40px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.serviceCard > span{
+    background-color: #f4f7ff;
+    width: 100px;
+}
+
+footer{
+    padding-block: 5rem;
+    background-color: #343e61;
+    color: white;
+    margin-top: 60px;
+}
+
+.footerWrapper{
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.burhan{
+    background-color: #f4f7ff;
+    padding: 1rem;
+    margin-top: 120px;
+}
+
